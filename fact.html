@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Recursive factorial</title>
+        <body>
+        <p id="demo"></p>
+        <script>
+            var factr=5;
+            function fact(num)
+            {
+            if(num!=1)
+            {   
+                factr=factr*(num-1);
+                num=num-1;
+    
+                return fact(num);
+            }
+            else
+            {
+            return factr;
+            }
+            }
+            document.getElementById("demo").innerHTML=fact(5);
+        </script>
+        </body>
+    </head>
+</html>

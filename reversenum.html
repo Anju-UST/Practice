@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function reverse1(n){
+            
+            
+            var d=0; 
+            var r=0;
+            while(i>=0){
+                d=n%10;
+                r=(r*10)+d;
+                n=Math.floor(n/10);
+            
+            }
+            return r;
+
+        }
+        function reverse(){
+            var n=document.getElementById(num).value;
+            console.log(n);
+            var rev=reverse1(n);
+            document.write(rev);
+        }
+    </script>
+</head>
+<body>
+<input type="text" id="num" name="num">
+<input type="button" value="reverse" onclick="reverse(num)">
+</body>
+</html>

@@ -1,0 +1,56 @@
+.myDiv {
+    border: 2px outset black;
+    width: 99%;
+    text-align: center;
+    padding: 7px;
+    background-color:antiquewhite;
+    
+  }
+  .myDiv2{
+    border: 2px outset black;
+    width: 98%;
+    text-align: left;
+    padding: 7px;
+    background-color: azure;
+    
+  }
+  .headerdiv{
+    border: 2px outset black;
+    width: 98%;
+    text-align: center;
+    padding: 7px;
+    background-color: coral;
+  }
+  .footer{
+    background-color:black ;
+    color: white;
+  }
+  img{
+    float :left
+  }
+  .mytable{
+    border: 1px solid rgb(154, 14, 14);
+    background-color: rgba(53, 202, 135, 0.503);
+    width: 98%;
+    text-align: center;
+    padding: 7px;
+   font-size: larger;
+   color: brown;
+   font-weight: 700;
+ }
+ a:link{
+  color: black
+}
+a:hover{
+  color:greenyellow
+}
+a:visited{
+  color: red
+}
+a:active{
+  color:brown
+}
+.navcontent{  float:left; height:500px; width:100%;  margin-top:-30px; margin-top:30px;}
+.nav { float:left; height:500px; width:20%;  background-color:purple; color:white;}
+.content { float:left; height:500px; width:80%;  background-color:blue; color:white; text-align:center;}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innertext</title>
+</head>
+<body>
+    <script type="text/javascript" >  
+        function validate() {
+
+        var msg;  
+        if(document.getElementById("pass").value.length>8){  
+        msg="good";  
+        }  
+        else{  
+        msg="poor";  
+        }  
+        document.getElementById('mylocation').innerText=msg;  
+         }  
+          
+        </script>  
+        <form name="myForm">
+            <label>enter password</label>  
+        <input type="password" value="" name="userPass" id="pass" onkeyup="validate()">  
+        <span id="mylocation"></span>  
+        </form>  
+</body>
+</html>

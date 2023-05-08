@@ -1,0 +1,28 @@
+th{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+td{
+    font-size: medium;
+    font-weight: 200;
+    font-weight:bold ;
+    color: blueviolet;
+    padding-left: 15px;
+}
+table {
+    border: 5px solid red;
+    text-align: left;
+    margin-top: 80px;
+    background-color:antiquewhite;
+    font-size: 18px;
+}
+button{
+    color:greenyellow;
+    background-color:black;
+    font-weight:bold;
+    height: 25px;
+}
+.myalign{
+    text-align: right;
+    
+}
